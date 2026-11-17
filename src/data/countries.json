@@ -1,0 +1,1570 @@
+[
+    {
+        "code": "AL",
+        "name": "Albanië",
+        "capital": "Tirana",
+        "continent": "Europe",
+        "flag": "al.svg",
+        "flagSource": "Flag of Albania.svg"
+    },
+    {
+        "code": "AD",
+        "name": "Andorra",
+        "capital": "Andorra la Vella",
+        "continent": "Europe",
+        "flag": "ad.svg",
+        "flagSource": "Flag of Andorra.svg"
+    },
+    {
+        "code": "BE",
+        "name": "België",
+        "capital": "Brussel",
+        "continent": "Europe",
+        "flag": "be.svg",
+        "flagSource": "Flag of Belgium.svg"
+    },
+    {
+        "code": "BA",
+        "name": "Bosnië en Herzegovina",
+        "capital": "Sarajevo",
+        "continent": "Europe",
+        "flag": "ba.svg",
+        "flagSource": "Flag of Bosnia and Herzegovina.svg"
+    },
+    {
+        "code": "BG",
+        "name": "Bulgarije",
+        "capital": "Sofia",
+        "continent": "Europe",
+        "flag": "bg.svg",
+        "flagSource": "Flag of Bulgaria.svg"
+    },
+    {
+        "code": "CY",
+        "name": "Cyprus",
+        "capital": "Nicosia",
+        "continent": "Europe",
+        "flag": "cy.svg",
+        "flagSource": "Flag of Cyprus.svg"
+    },
+    {
+        "code": "DE",
+        "name": "Duitsland",
+        "capital": "Berlijn",
+        "continent": "Europe",
+        "flag": "de.svg",
+        "flagSource": "Flag of Germany.svg"
+    },
+    {
+        "code": "EE",
+        "name": "Estland",
+        "capital": "Tallinn",
+        "continent": "Europe",
+        "flag": "ee.svg",
+        "flagSource": "Flag of Estonia.svg"
+    },
+    {
+        "code": "FI",
+        "name": "Finland",
+        "capital": "Helsinki",
+        "continent": "Europe",
+        "flag": "fi.svg",
+        "flagSource": "Flag of Finland.svg"
+    },
+    {
+        "code": "FR",
+        "name": "Frankrijk",
+        "capital": "Parijs",
+        "continent": "Europe",
+        "flag": "fr.svg",
+        "flagSource": "Flag of France.svg"
+    },
+    {
+        "code": "GE",
+        "name": "Georgië",
+        "capital": "Tbilisi",
+        "continent": "Europe",
+        "flag": "ge.svg",
+        "flagSource": "Flag of Georgia.svg"
+    },
+    {
+        "code": "GR",
+        "name": "Griekenland",
+        "capital": "Athene",
+        "continent": "Europe",
+        "flag": "gr.svg",
+        "flagSource": "Flag of Greece.svg"
+    },
+    {
+        "code": "HU",
+        "name": "Hongarije",
+        "capital": "Boedapest",
+        "continent": "Europe",
+        "flag": "hu.svg",
+        "flagSource": "Flag of Hungary.svg"
+    },
+    {
+        "code": "IS",
+        "name": "IJsland",
+        "capital": "Reykjavik",
+        "continent": "Europe",
+        "flag": "is.svg",
+        "flagSource": "Flag of Iceland.svg"
+    },
+    {
+        "code": "IE",
+        "name": "Ierland",
+        "capital": "Dublin",
+        "continent": "Europe",
+        "flag": "ie.svg",
+        "flagSource": "Flag of Ireland.svg"
+    },
+    {
+        "code": "IT",
+        "name": "Italië",
+        "capital": "Rome",
+        "continent": "Europe",
+        "flag": "it.svg",
+        "flagSource": "Flag of Italy.svg"
+    },
+    {
+        "code": "KZ",
+        "name": "Kazachstan",
+        "capital": "Astana",
+        "continent": "Europe",
+        "flag": "kz.svg",
+        "flagSource": "Flag of Kazakhstan.svg"
+    },
+    {
+        "code": "NL",
+        "name": "Nederland",
+        "capital": "Amsterdam",
+        "continent": "Europe",
+        "flag": "nl.svg",
+        "flagSource": "Flag of the Netherlands.svg"
+    },
+    {
+        "code": "XK",
+        "name": "Kosovo",
+        "capital": "Pristina",
+        "continent": "Europe",
+        "flag": "xk.svg",
+        "flagSource": "Flag of Kosovo.svg"
+    },
+    {
+        "code": "HR",
+        "name": "Kroatië",
+        "capital": "Zagreb",
+        "continent": "Europe",
+        "flag": "hr.svg",
+        "flagSource": "Flag of Croatia.svg"
+    },
+    {
+        "code": "LV",
+        "name": "Letland",
+        "capital": "Riga",
+        "continent": "Europe",
+        "flag": "lv.svg",
+        "flagSource": "Flag of Latvia.svg"
+    },
+    {
+        "code": "LI",
+        "name": "Liechtenstein",
+        "capital": "Vaduz",
+        "continent": "Europe",
+        "flag": "li.svg",
+        "flagSource": "Flag of Liechtenstein.svg"
+    },
+    {
+        "code": "LT",
+        "name": "Litouwen",
+        "capital": "Vilnius",
+        "continent": "Europe",
+        "flag": "lt.svg",
+        "flagSource": "Flag of Lithuania.svg"
+    },
+    {
+        "code": "LU",
+        "name": "Luxemburg",
+        "capital": "Luxemburg",
+        "continent": "Europe",
+        "flag": "lu.svg",
+        "flagSource": "Flag of Luxembourg.svg"
+    },
+    {
+        "code": "MT",
+        "name": "Malta",
+        "capital": "Valletta",
+        "continent": "Europe",
+        "flag": "mt.svg",
+        "flagSource": "Flag of Malta.svg"
+    },
+    {
+        "code": "MD",
+        "name": "Moldavië",
+        "capital": "Chisinau",
+        "continent": "Europe",
+        "flag": "md.svg",
+        "flagSource": "Flag of Moldova.svg"
+    },
+    {
+        "code": "MC",
+        "name": "Monaco",
+        "capital": "Monaco",
+        "continent": "Europe",
+        "flag": "mc.svg",
+        "flagSource": "Flag of Monaco.svg"
+    },
+    {
+        "code": "ME",
+        "name": "Montenegro",
+        "capital": "Podgorica",
+        "continent": "Europe",
+        "flag": "me.svg",
+        "flagSource": "Flag of Montenegro.svg"
+    },
+    {
+        "code": "MK",
+        "name": "Noord-Macedonië",
+        "capital": "Skopje",
+        "continent": "Europe",
+        "flag": "mk.svg",
+        "flagSource": "Flag of North Macedonia.svg"
+    },
+    {
+        "code": "NO",
+        "name": "Noorwegen",
+        "capital": "Oslo",
+        "continent": "Europe",
+        "flag": "no.svg",
+        "flagSource": "Flag of Norway.svg"
+    },
+    {
+        "code": "UA",
+        "name": "Oekraïne",
+        "capital": "Kiev",
+        "continent": "Europe",
+        "flag": "ua.svg",
+        "flagSource": "Flag of Ukraine.svg"
+    },
+    {
+        "code": "AT",
+        "name": "Oostenrijk",
+        "capital": "Wenen",
+        "continent": "Europe",
+        "flag": "at.svg",
+        "flagSource": "Flag of Austria.svg"
+    },
+    {
+        "code": "PL",
+        "name": "Polen",
+        "capital": "Warschau",
+        "continent": "Europe",
+        "flag": "pl.svg",
+        "flagSource": "Flag of Poland.svg"
+    },
+    {
+        "code": "PT",
+        "name": "Portugal",
+        "capital": "Lissabon",
+        "continent": "Europe",
+        "flag": "pt.svg",
+        "flagSource": "Flag of Portugal (official).svg"
+    },
+    {
+        "code": "RO",
+        "name": "Roemenië",
+        "capital": "Boekarest",
+        "continent": "Europe",
+        "flag": "ro.svg",
+        "flagSource": "Flag of Romania.svg"
+    },
+    {
+        "code": "RU",
+        "name": "Rusland",
+        "capital": "Moskou",
+        "continent": "Europe",
+        "flag": "ru.svg",
+        "flagSource": "Flag of Russia.svg"
+    },
+    {
+        "code": "SM",
+        "name": "San Marino",
+        "capital": "San Marino",
+        "continent": "Europe",
+        "flag": "sm.svg",
+        "flagSource": "Flag of San Marino.svg"
+    },
+    {
+        "code": "RS",
+        "name": "Servië",
+        "capital": "Belgrado",
+        "continent": "Europe",
+        "flag": "rs.svg",
+        "flagSource": "Flag of Serbia.svg"
+    },
+    {
+        "code": "SI",
+        "name": "Slovenië",
+        "capital": "Ljubljana",
+        "continent": "Europe",
+        "flag": "si.svg",
+        "flagSource": "Flag of Slovenia.svg"
+    },
+    {
+        "code": "SK",
+        "name": "Slowakije",
+        "capital": "Bratislava",
+        "continent": "Europe",
+        "flag": "sk.svg",
+        "flagSource": "Flag of Slovakia.svg"
+    },
+    {
+        "code": "ES",
+        "name": "Spanje",
+        "capital": "Madrid",
+        "continent": "Europe",
+        "flag": "es.svg",
+        "flagSource": "Flag of Spain.svg"
+    },
+    {
+        "code": "CZ",
+        "name": "Tsjechië",
+        "capital": "Praag",
+        "continent": "Europe",
+        "flag": "cz.svg",
+        "flagSource": "Flag of the Czech Republic.svg"
+    },
+    {
+        "code": "TR",
+        "name": "Turkije",
+        "capital": "Ankara",
+        "continent": "Europe",
+        "flag": "tr.svg",
+        "flagSource": "Flag of Turkey.svg"
+    },
+    {
+        "code": "VA",
+        "name": "Vaticaanstad",
+        "capital": "Vaticaanstad",
+        "continent": "Europe",
+        "flag": "va.svg",
+        "flagSource": "Flag of Vatican City (2023–present).svg"
+    },
+    {
+        "code": "GB",
+        "name": "Verenigd Koninkrijk",
+        "capital": "Londen",
+        "continent": "Europe",
+        "flag": "gb.svg",
+        "flagSource": "Flag of the United Kingdom (3-5).svg"
+    },
+    {
+        "code": "BY",
+        "name": "Wit-Rusland",
+        "capital": "Minsk",
+        "continent": "Europe",
+        "flag": "by.svg",
+        "flagSource": "Flag of Belarus.svg"
+    },
+    {
+        "code": "SE",
+        "name": "Zweden",
+        "capital": "Stockholm",
+        "continent": "Europe",
+        "flag": "se.svg",
+        "flagSource": "Flag of Sweden.svg"
+    },
+    {
+        "code": "CH",
+        "name": "Zwitserland",
+        "capital": "Bern",
+        "continent": "Europe",
+        "flag": "ch.svg",
+        "flagSource": "Flag of Switzerland.svg"
+    },
+    {
+        "code": "AF",
+        "name": "Afghanistan",
+        "capital": "Kabul",
+        "continent": "Asia",
+        "flag": "af.svg",
+        "flagSource": "Flag of the Taliban.svg"
+    },
+    {
+        "code": "AM",
+        "name": "Armenië",
+        "capital": "Jerevan",
+        "continent": "Asia",
+        "flag": "am.svg",
+        "flagSource": "Flag of Armenia.svg"
+    },
+    {
+        "code": "AZ",
+        "name": "Azerbeidzjan",
+        "capital": "Bakoe",
+        "continent": "Asia",
+        "flag": "az.svg",
+        "flagSource": "Flag of Azerbaijan.svg"
+    },
+    {
+        "code": "BH",
+        "name": "Bahrein",
+        "capital": "Manama",
+        "continent": "Asia",
+        "flag": "bh.svg",
+        "flagSource": "Flag of Bahrain.svg"
+    },
+    {
+        "code": "BD",
+        "name": "Bangladesh",
+        "capital": "Dhaka",
+        "continent": "Asia",
+        "flag": "bd.svg",
+        "flagSource": "Flag of Bangladesh.svg"
+    },
+    {
+        "code": "BT",
+        "name": "Bhutan",
+        "capital": "Thimphu",
+        "continent": "Asia",
+        "flag": "bt.svg",
+        "flagSource": "Flag of Bhutan.svg"
+    },
+    {
+        "code": "BN",
+        "name": "Brunei",
+        "capital": "Bandar Seri Begawan",
+        "continent": "Asia",
+        "flag": "bn.svg",
+        "flagSource": "Flag of Brunei.svg"
+    },
+    {
+        "code": "KH",
+        "name": "Cambodja",
+        "capital": "Phnom-Penh",
+        "continent": "Asia",
+        "flag": "kh.svg",
+        "flagSource": "Flag of Cambodia.svg"
+    },
+    {
+        "code": "PH",
+        "name": "Filipijnen",
+        "capital": "Manilla",
+        "continent": "Asia",
+        "flag": "ph.svg",
+        "flagSource": "Flag of the Philippines.svg"
+    },
+    {
+        "code": "IN",
+        "name": "India",
+        "capital": "New Delhi",
+        "continent": "Asia",
+        "flag": "in.svg",
+        "flagSource": "Flag of India.svg"
+    },
+    {
+        "code": "ID",
+        "name": "Indonesië",
+        "capital": "Jakarta",
+        "continent": "Asia",
+        "flag": "id.svg",
+        "flagSource": "Flag of Indonesia.svg"
+    },
+    {
+        "code": "IQ",
+        "name": "Irak",
+        "capital": "Bagdad",
+        "continent": "Asia",
+        "flag": "iq.svg",
+        "flagSource": "Flag of Iraq.svg"
+    },
+    {
+        "code": "IR",
+        "name": "Iran",
+        "capital": "Teheran",
+        "continent": "Asia",
+        "flag": "ir.svg",
+        "flagSource": "Flag of Iran.svg"
+    },
+    {
+        "code": "IL",
+        "name": "Israël",
+        "capital": "Jeruzalem",
+        "continent": "Asia",
+        "flag": "il.svg",
+        "flagSource": "Flag of Israel.svg"
+    },
+    {
+        "code": "JP",
+        "name": "Japan",
+        "capital": "Tokio",
+        "continent": "Asia",
+        "flag": "jp.svg",
+        "flagSource": "Flag of Japan.svg"
+    },
+    {
+        "code": "YE",
+        "name": "Jemen",
+        "capital": "Aden",
+        "continent": "Asia",
+        "flag": "ye.svg",
+        "flagSource": "Flag of Yemen.svg"
+    },
+    {
+        "code": "JO",
+        "name": "Jordanië",
+        "capital": "Amman",
+        "continent": "Asia",
+        "flag": "jo.svg",
+        "flagSource": "Flag of Jordan.svg"
+    },
+    {
+        "code": "KG",
+        "name": "Kirgizië",
+        "capital": "Bisjkek",
+        "continent": "Asia",
+        "flag": "kg.svg",
+        "flagSource": "Flag of Kyrgyzstan.svg"
+    },
+    {
+        "code": "KW",
+        "name": "Koeweit",
+        "capital": "Koeweit",
+        "continent": "Asia",
+        "flag": "kw.svg",
+        "flagSource": "Flag of Kuwait.svg"
+    },
+    {
+        "code": "LA",
+        "name": "Laos",
+        "capital": "Vientiane",
+        "continent": "Asia",
+        "flag": "la.svg",
+        "flagSource": "Flag of Laos.svg"
+    },
+    {
+        "code": "LB",
+        "name": "Libanon",
+        "capital": "Beiroet",
+        "continent": "Asia",
+        "flag": "lb.svg",
+        "flagSource": "Flag of Lebanon.svg"
+    },
+    {
+        "code": "MV",
+        "name": "Malediven",
+        "capital": "Malé",
+        "continent": "Asia",
+        "flag": "mv.svg",
+        "flagSource": "Flag of Maldives.svg"
+    },
+    {
+        "code": "MY",
+        "name": "Maleisië",
+        "capital": "Kuala Lumpur",
+        "continent": "Asia",
+        "flag": "my.svg",
+        "flagSource": "Flag of Malaysia.svg"
+    },
+    {
+        "code": "MN",
+        "name": "Mongolië",
+        "capital": "Ulaanbaatar",
+        "continent": "Asia",
+        "flag": "mn.svg",
+        "flagSource": "Flag of Mongolia.svg"
+    },
+    {
+        "code": "MM",
+        "name": "Myanmar",
+        "capital": "Naypyidaw",
+        "continent": "Asia",
+        "flag": "mm.svg",
+        "flagSource": "Flag of Myanmar.svg"
+    },
+    {
+        "code": "NP",
+        "name": "Nepal",
+        "capital": "Kathmandu",
+        "continent": "Asia",
+        "flag": "np.svg",
+        "flagSource": "Flag of Nepal.svg"
+    },
+    {
+        "code": "KP",
+        "name": "Noord-Korea",
+        "capital": "Pyongyang",
+        "continent": "Asia",
+        "flag": "kp.svg",
+        "flagSource": "Flag of North Korea.svg"
+    },
+    {
+        "code": "UZ",
+        "name": "Oezbekistan",
+        "capital": "Tasjkent",
+        "continent": "Asia",
+        "flag": "uz.svg",
+        "flagSource": "Flag of Uzbekistan.svg"
+    },
+    {
+        "code": "OM",
+        "name": "Oman",
+        "capital": "Masqat",
+        "continent": "Asia",
+        "flag": "om.svg",
+        "flagSource": "Flag of Oman.svg"
+    },
+    {
+        "code": "TL",
+        "name": "Oost-Timor",
+        "capital": "Dili",
+        "continent": "Asia",
+        "flag": "tl.svg",
+        "flagSource": "Flag of East Timor.svg"
+    },
+    {
+        "code": "PK",
+        "name": "Pakistan",
+        "capital": "Islamabad",
+        "continent": "Asia",
+        "flag": "pk.svg",
+        "flagSource": "Flag of Pakistan.svg"
+    },
+    {
+        "code": "QA",
+        "name": "Qatar",
+        "capital": "Doha",
+        "continent": "Asia",
+        "flag": "qa.svg",
+        "flagSource": "Flag of Qatar.svg"
+    },
+    {
+        "code": "SA",
+        "name": "Saoedi-Arabië",
+        "capital": "Riyad",
+        "continent": "Asia",
+        "flag": "sa.svg",
+        "flagSource": "Flag of Saudi Arabia.svg"
+    },
+    {
+        "code": "SG",
+        "name": "Singapore",
+        "capital": "Singapore",
+        "continent": "Asia",
+        "flag": "sg.svg",
+        "flagSource": "Flag of Singapore.svg"
+    },
+    {
+        "code": "LK",
+        "name": "Sri Lanka",
+        "capital": "Sri Jayewardenapura Kotte",
+        "continent": "Asia",
+        "flag": "lk.svg",
+        "flagSource": "Flag of Sri Lanka.svg"
+    },
+    {
+        "code": "PS",
+        "name": "Palestina",
+        "capital": "Ramallah",
+        "continent": "Asia",
+        "flag": "ps.svg",
+        "flagSource": "Flag of Palestine.svg"
+    },
+    {
+        "code": "SY",
+        "name": "Syrië",
+        "capital": "Damascus",
+        "continent": "Asia",
+        "flag": "sy.svg",
+        "flagSource": "Flag of Syria (2025-).svg"
+    },
+    {
+        "code": "TJ",
+        "name": "Tadzjikistan",
+        "capital": "Doesjanbe",
+        "continent": "Asia",
+        "flag": "tj.svg",
+        "flagSource": "Flag of Tajikistan.svg"
+    },
+    {
+        "code": "TW",
+        "name": "Taiwan",
+        "capital": "Taipei",
+        "continent": "Asia",
+        "flag": "tw.svg",
+        "flagSource": "Flag of the Republic of China.svg"
+    },
+    {
+        "code": "TH",
+        "name": "Thailand",
+        "capital": "Bangkok",
+        "continent": "Asia",
+        "flag": "th.svg",
+        "flagSource": "Flag of Thailand.svg"
+    },
+    {
+        "code": "TM",
+        "name": "Turkmenistan",
+        "capital": "Asjchabad",
+        "continent": "Asia",
+        "flag": "tm.svg",
+        "flagSource": "Flag of Turkmenistan.svg"
+    },
+    {
+        "code": "AE",
+        "name": "Verenigde Arabische Emiraten",
+        "capital": "Abu Dhabi",
+        "continent": "Asia",
+        "flag": "ae.svg",
+        "flagSource": "Flag of the United Arab Emirates.svg"
+    },
+    {
+        "code": "VN",
+        "name": "Vietnam",
+        "capital": "Hanoi",
+        "continent": "Asia",
+        "flag": "vn.svg",
+        "flagSource": "Flag of Vietnam.svg"
+    },
+    {
+        "code": "CN",
+        "name": "China",
+        "capital": "Peking",
+        "continent": "Asia",
+        "flag": "cn.svg",
+        "flagSource": "Flag of the People's Republic of China.svg"
+    },
+    {
+        "code": "KR",
+        "name": "Zuid-Korea",
+        "capital": "Seoel",
+        "continent": "Asia",
+        "flag": "kr.svg",
+        "flagSource": "Flag of South Korea.svg"
+    },
+    {
+        "code": "DZ",
+        "name": "Algerije",
+        "capital": "Algiers",
+        "continent": "Africa",
+        "flag": "dz.svg",
+        "flagSource": "Flag of Algeria.svg"
+    },
+    {
+        "code": "AO",
+        "name": "Angola",
+        "capital": "Luanda",
+        "continent": "Africa",
+        "flag": "ao.svg",
+        "flagSource": "Flag of Angola.svg"
+    },
+    {
+        "code": "BJ",
+        "name": "Benin",
+        "capital": "Porto-Novo",
+        "continent": "Africa",
+        "flag": "bj.svg",
+        "flagSource": "Flag of Benin.svg"
+    },
+    {
+        "code": "BW",
+        "name": "Botswana",
+        "capital": "Gaborone",
+        "continent": "Africa",
+        "flag": "bw.svg",
+        "flagSource": "Flag of Botswana.svg"
+    },
+    {
+        "code": "BF",
+        "name": "Burkina Faso",
+        "capital": "Ouagadougou",
+        "continent": "Africa",
+        "flag": "bf.svg",
+        "flagSource": "Flag of Burkina Faso.svg"
+    },
+    {
+        "code": "BI",
+        "name": "Burundi",
+        "capital": "Gitega",
+        "continent": "Africa",
+        "flag": "bi.svg",
+        "flagSource": "Flag of Burundi.svg"
+    },
+    {
+        "code": "CF",
+        "name": "Centraal-Afrikaanse Republiek",
+        "capital": "Bangui",
+        "continent": "Africa",
+        "flag": "cf.svg",
+        "flagSource": "Flag of the Central African Republic.svg"
+    },
+    {
+        "code": "KM",
+        "name": "Comoren",
+        "capital": "Moroni",
+        "continent": "Africa",
+        "flag": "km.svg",
+        "flagSource": "Flag of the Comoros.svg"
+    },
+    {
+        "code": "CG",
+        "name": "Republiek Congo",
+        "capital": "Brazzaville",
+        "continent": "Africa",
+        "flag": "cg.svg",
+        "flagSource": "Flag of the Republic of the Congo.svg"
+    },
+    {
+        "code": "CD",
+        "name": "Democratische Republiek Congo",
+        "capital": "Kinshasa",
+        "continent": "Africa",
+        "flag": "cd.svg",
+        "flagSource": "Flag of the Democratic Republic of the Congo.svg"
+    },
+    {
+        "code": "DJ",
+        "name": "Djibouti",
+        "capital": "Djibouti",
+        "continent": "Africa",
+        "flag": "dj.svg",
+        "flagSource": "Flag of Djibouti.svg"
+    },
+    {
+        "code": "EG",
+        "name": "Egypte",
+        "capital": "Caïro",
+        "continent": "Africa",
+        "flag": "eg.svg",
+        "flagSource": "Flag of Egypt.svg"
+    },
+    {
+        "code": "GQ",
+        "name": "Equatoriaal-Guinea",
+        "capital": "Ciudad de la Paz",
+        "continent": "Africa",
+        "flag": "gq.svg",
+        "flagSource": "Flag of Equatorial Guinea.svg"
+    },
+    {
+        "code": "ER",
+        "name": "Eritrea",
+        "capital": "Asmara",
+        "continent": "Africa",
+        "flag": "er.svg",
+        "flagSource": "Flag of Eritrea.svg"
+    },
+    {
+        "code": "ET",
+        "name": "Ethiopië",
+        "capital": "Addis Abeba",
+        "continent": "Africa",
+        "flag": "et.svg",
+        "flagSource": "Flag of Ethiopia.svg"
+    },
+    {
+        "code": "GA",
+        "name": "Gabon",
+        "capital": "Libreville",
+        "continent": "Africa",
+        "flag": "ga.svg",
+        "flagSource": "Flag of Gabon.svg"
+    },
+    {
+        "code": "GM",
+        "name": "Gambia",
+        "capital": "Banjul",
+        "continent": "Africa",
+        "flag": "gm.svg",
+        "flagSource": "Flag of The Gambia.svg"
+    },
+    {
+        "code": "GH",
+        "name": "Ghana",
+        "capital": "Accra",
+        "continent": "Africa",
+        "flag": "gh.svg",
+        "flagSource": "Flag of Ghana.svg"
+    },
+    {
+        "code": "GN",
+        "name": "Guinee",
+        "capital": "Conakry",
+        "continent": "Africa",
+        "flag": "gn.svg",
+        "flagSource": "Flag of Guinea.svg"
+    },
+    {
+        "code": "GW",
+        "name": "Guinee-Bissau",
+        "capital": "Bissau",
+        "continent": "Africa",
+        "flag": "gw.svg",
+        "flagSource": "Flag of Guinea-Bissau.svg"
+    },
+    {
+        "code": "CI",
+        "name": "Ivoorkust",
+        "capital": "Yamoussoukro",
+        "continent": "Africa",
+        "flag": "ci.svg",
+        "flagSource": "Flag of Côte d'Ivoire.svg"
+    },
+    {
+        "code": "CV",
+        "name": "Kaapverdië",
+        "capital": "Praia",
+        "continent": "Africa",
+        "flag": "cv.svg",
+        "flagSource": "Flag of Cape Verde.svg"
+    },
+    {
+        "code": "CM",
+        "name": "Kameroen",
+        "capital": "Yaoundé",
+        "continent": "Africa",
+        "flag": "cm.svg",
+        "flagSource": "Flag of Cameroon.svg"
+    },
+    {
+        "code": "KE",
+        "name": "Kenia",
+        "capital": "Nairobi",
+        "continent": "Africa",
+        "flag": "ke.svg",
+        "flagSource": "Flag of Kenya.svg"
+    },
+    {
+        "code": "LS",
+        "name": "Lesotho",
+        "capital": "Maseru",
+        "continent": "Africa",
+        "flag": "ls.svg",
+        "flagSource": "Flag of Lesotho.svg"
+    },
+    {
+        "code": "LR",
+        "name": "Liberia",
+        "capital": "Monrovia",
+        "continent": "Africa",
+        "flag": "lr.svg",
+        "flagSource": "Flag of Liberia.svg"
+    },
+    {
+        "code": "LY",
+        "name": "Libië",
+        "capital": "Tripoli",
+        "continent": "Africa",
+        "flag": "ly.svg",
+        "flagSource": "Flag of Libya.svg"
+    },
+    {
+        "code": "MG",
+        "name": "Madagaskar",
+        "capital": "Antananarivo",
+        "continent": "Africa",
+        "flag": "mg.svg",
+        "flagSource": "Flag of Madagascar.svg"
+    },
+    {
+        "code": "MW",
+        "name": "Malawi",
+        "capital": "Lilongwe",
+        "continent": "Africa",
+        "flag": "mw.svg",
+        "flagSource": "Flag of Malawi.svg"
+    },
+    {
+        "code": "ML",
+        "name": "Mali",
+        "capital": "Bamako",
+        "continent": "Africa",
+        "flag": "ml.svg",
+        "flagSource": "Flag of Mali.svg"
+    },
+    {
+        "code": "MA",
+        "name": "Marokko",
+        "capital": "Rabat",
+        "continent": "Africa",
+        "flag": "ma.svg",
+        "flagSource": "Flag of Morocco.svg"
+    },
+    {
+        "code": "MR",
+        "name": "Mauritanië",
+        "capital": "Nouakchott",
+        "continent": "Africa",
+        "flag": "mr.svg",
+        "flagSource": "Flag of Mauritania.svg"
+    },
+    {
+        "code": "MU",
+        "name": "Mauritius",
+        "capital": "Port Louis",
+        "continent": "Africa",
+        "flag": "mu.svg",
+        "flagSource": "Flag of Mauritius.svg"
+    },
+    {
+        "code": "MZ",
+        "name": "Mozambique",
+        "capital": "Maputo",
+        "continent": "Africa",
+        "flag": "mz.svg",
+        "flagSource": "Flag of Mozambique (1983).svg"
+    },
+    {
+        "code": "NA",
+        "name": "Namibië",
+        "capital": "Windhoek",
+        "continent": "Africa",
+        "flag": "na.svg",
+        "flagSource": "Flag of Namibia.svg"
+    },
+    {
+        "code": "NE",
+        "name": "Niger",
+        "capital": "Niamey",
+        "continent": "Africa",
+        "flag": "ne.svg",
+        "flagSource": "Flag of Niger.svg"
+    },
+    {
+        "code": "NG",
+        "name": "Nigeria",
+        "capital": "Q3787",
+        "continent": "Africa",
+        "flag": "ng.svg",
+        "flagSource": "Flag of Nigeria.svg"
+    },
+    {
+        "code": "UG",
+        "name": "Oeganda",
+        "capital": "Kampala",
+        "continent": "Africa",
+        "flag": "ug.svg",
+        "flagSource": "Flag of Uganda.svg"
+    },
+    {
+        "code": "RW",
+        "name": "Rwanda",
+        "capital": "Kigali",
+        "continent": "Africa",
+        "flag": "rw.svg",
+        "flagSource": "Flag of Rwanda.svg"
+    },
+    {
+        "code": "ST",
+        "name": "Sao Tomé en Principe",
+        "capital": "Sao Tomé",
+        "continent": "Africa",
+        "flag": "st.svg",
+        "flagSource": "Flag of São Tomé and Príncipe.svg"
+    },
+    {
+        "code": "SN",
+        "name": "Senegal",
+        "capital": "Dakar",
+        "continent": "Africa",
+        "flag": "sn.svg",
+        "flagSource": "Flag of Senegal.svg"
+    },
+    {
+        "code": "SC",
+        "name": "Seychellen",
+        "capital": "Victoria",
+        "continent": "Africa",
+        "flag": "sc.svg",
+        "flagSource": "Flag of Seychelles.svg"
+    },
+    {
+        "code": "SL",
+        "name": "Sierra Leone",
+        "capital": "Freetown",
+        "continent": "Africa",
+        "flag": "sl.svg",
+        "flagSource": "Flag of Sierra Leone.svg"
+    },
+    {
+        "code": "SD",
+        "name": "Soedan",
+        "capital": "Khartoem",
+        "continent": "Africa",
+        "flag": "sd.svg",
+        "flagSource": "Flag of Sudan.svg"
+    },
+    {
+        "code": "SO",
+        "name": "Somalië",
+        "capital": "Mogadishu",
+        "continent": "Africa",
+        "flag": "so.svg",
+        "flagSource": "Flag of Somalia.svg"
+    },
+    {
+        "code": "SZ",
+        "name": "Eswatini",
+        "capital": "Lobamba",
+        "continent": "Africa",
+        "flag": "sz.svg",
+        "flagSource": "Flag of Eswatini.svg"
+    },
+    {
+        "code": "TZ",
+        "name": "Tanzania",
+        "capital": "Dodoma",
+        "continent": "Africa",
+        "flag": "tz.svg",
+        "flagSource": "Flag of Tanzania.svg"
+    },
+    {
+        "code": "TG",
+        "name": "Togo",
+        "capital": "Lomé",
+        "continent": "Africa",
+        "flag": "tg.svg",
+        "flagSource": "Flag of Togo (3-2).svg"
+    },
+    {
+        "code": "TD",
+        "name": "Tsjaad",
+        "capital": "Ndjamena",
+        "continent": "Africa",
+        "flag": "td.svg",
+        "flagSource": "Flag of Chad.svg"
+    },
+    {
+        "code": "TN",
+        "name": "Tunesië",
+        "capital": "Tunis",
+        "continent": "Africa",
+        "flag": "tn.svg",
+        "flagSource": "Flag of Tunisia.svg"
+    },
+    {
+        "code": "ZM",
+        "name": "Zambia",
+        "capital": "Lusaka",
+        "continent": "Africa",
+        "flag": "zm.svg",
+        "flagSource": "Flag of Zambia.svg"
+    },
+    {
+        "code": "ZW",
+        "name": "Zimbabwe",
+        "capital": "Harare",
+        "continent": "Africa",
+        "flag": "zw.svg",
+        "flagSource": "Flag of Zimbabwe.svg"
+    },
+    {
+        "code": "ZA",
+        "name": "Zuid-Afrika",
+        "capital": "Pretoria",
+        "continent": "Africa",
+        "flag": "za.svg",
+        "flagSource": "Flag of South Africa.svg"
+    },
+    {
+        "code": "SS",
+        "name": "Zuid-Soedan",
+        "capital": "Djoeba",
+        "continent": "Africa",
+        "flag": "ss.svg",
+        "flagSource": "Flag of South Sudan.svg"
+    },
+    {
+        "code": "AG",
+        "name": "Antigua en Barbuda",
+        "capital": "Saint John's",
+        "continent": "North America",
+        "flag": "ag.svg",
+        "flagSource": "Flag of Antigua and Barbuda.svg"
+    },
+    {
+        "code": "BS",
+        "name": "Bahama's",
+        "capital": "Nassau",
+        "continent": "North America",
+        "flag": "bs.svg",
+        "flagSource": "Flag of the Bahamas.svg"
+    },
+    {
+        "code": "BB",
+        "name": "Barbados",
+        "capital": "Bridgetown",
+        "continent": "North America",
+        "flag": "bb.svg",
+        "flagSource": "Flag of Barbados.svg"
+    },
+    {
+        "code": "BZ",
+        "name": "Belize",
+        "capital": "Belmopan",
+        "continent": "North America",
+        "flag": "bz.svg",
+        "flagSource": "Flag of Belize.svg"
+    },
+    {
+        "code": "CA",
+        "name": "Canada",
+        "capital": "Ottawa",
+        "continent": "North America",
+        "flag": "ca.svg",
+        "flagSource": "Flag of Canada (Pantone).svg"
+    },
+    {
+        "code": "CR",
+        "name": "Costa Rica",
+        "capital": "San José",
+        "continent": "North America",
+        "flag": "cr.svg",
+        "flagSource": "Flag of Costa Rica.svg"
+    },
+    {
+        "code": "CU",
+        "name": "Cuba",
+        "capital": "Havana",
+        "continent": "North America",
+        "flag": "cu.svg",
+        "flagSource": "Flag of Cuba.svg"
+    },
+    {
+        "code": "DM",
+        "name": "Dominica",
+        "capital": "Roseau",
+        "continent": "North America",
+        "flag": "dm.svg",
+        "flagSource": "Flag of Dominica.svg"
+    },
+    {
+        "code": "DO",
+        "name": "Dominicaanse Republiek",
+        "capital": "Santo Domingo",
+        "continent": "North America",
+        "flag": "do.svg",
+        "flagSource": "Flag of the Dominican Republic.svg"
+    },
+    {
+        "code": "SV",
+        "name": "El Salvador",
+        "capital": "San Salvador",
+        "continent": "North America",
+        "flag": "sv.svg",
+        "flagSource": "Flag of El Salvador.svg"
+    },
+    {
+        "code": "GD",
+        "name": "Grenada",
+        "capital": "Saint George's",
+        "continent": "North America",
+        "flag": "gd.svg",
+        "flagSource": "Flag of Grenada.svg"
+    },
+    {
+        "code": "GT",
+        "name": "Guatemala",
+        "capital": "Guatemala-Stad",
+        "continent": "North America",
+        "flag": "gt.svg",
+        "flagSource": "Flag of Guatemala.svg"
+    },
+    {
+        "code": "HT",
+        "name": "Haïti",
+        "capital": "Port-au-Prince",
+        "continent": "North America",
+        "flag": "ht.svg",
+        "flagSource": "Flag of Haiti.svg"
+    },
+    {
+        "code": "HN",
+        "name": "Honduras",
+        "capital": "Tegucigalpa",
+        "continent": "North America",
+        "flag": "hn.svg",
+        "flagSource": "Flag of Honduras (1949–2022, 2026–present).svg"
+    },
+    {
+        "code": "JM",
+        "name": "Jamaica",
+        "capital": "Kingston",
+        "continent": "North America",
+        "flag": "jm.svg",
+        "flagSource": "Flag of Jamaica.svg"
+    },
+    {
+        "code": "MX",
+        "name": "Mexico",
+        "capital": "Mexico-Stad",
+        "continent": "North America",
+        "flag": "mx.svg",
+        "flagSource": "Flag of Mexico.svg"
+    },
+    {
+        "code": "NI",
+        "name": "Nicaragua",
+        "capital": "Managua",
+        "continent": "North America",
+        "flag": "ni.svg",
+        "flagSource": "Flag of Nicaragua.svg"
+    },
+    {
+        "code": "PA",
+        "name": "Panama",
+        "capital": "Panama-Stad",
+        "continent": "North America",
+        "flag": "pa.svg",
+        "flagSource": "Flag of Panama.svg"
+    },
+    {
+        "code": "KN",
+        "name": "Saint Kitts en Nevis",
+        "capital": "Basseterre",
+        "continent": "North America",
+        "flag": "kn.svg",
+        "flagSource": "Flag of Saint Kitts and Nevis.svg"
+    },
+    {
+        "code": "LC",
+        "name": "Saint Lucia",
+        "capital": "Castries",
+        "continent": "North America",
+        "flag": "lc.svg",
+        "flagSource": "Flag of Saint Lucia.svg"
+    },
+    {
+        "code": "VC",
+        "name": "Saint Vincent en de Grenadines",
+        "capital": "Kingstown",
+        "continent": "North America",
+        "flag": "vc.svg",
+        "flagSource": "Flag of Saint Vincent and the Grenadines.svg"
+    },
+    {
+        "code": "TT",
+        "name": "Trinidad en Tobago",
+        "capital": "Port of Spain",
+        "continent": "North America",
+        "flag": "tt.svg",
+        "flagSource": "Flag of Trinidad and Tobago.svg"
+    },
+    {
+        "code": "US",
+        "name": "Verenigde Staten",
+        "capital": "Washington D.C.",
+        "continent": "North America",
+        "flag": "us.svg",
+        "flagSource": "Flag of the United States (DDD-F-416E specifications).svg"
+    },
+    {
+        "code": "AR",
+        "name": "Argentinië",
+        "capital": "Buenos Aires",
+        "continent": "South America",
+        "flag": "ar.svg",
+        "flagSource": "Flag of Argentina.svg"
+    },
+    {
+        "code": "BO",
+        "name": "Bolivia",
+        "capital": "Sucre",
+        "continent": "South America",
+        "flag": "bo.svg",
+        "flagSource": "Flag of Bolivia.svg"
+    },
+    {
+        "code": "BR",
+        "name": "Brazilië",
+        "capital": "Brasilia",
+        "continent": "South America",
+        "flag": "br.svg",
+        "flagSource": "Flag of Brazil.svg"
+    },
+    {
+        "code": "CL",
+        "name": "Chili",
+        "capital": "Santiago",
+        "continent": "South America",
+        "flag": "cl.svg",
+        "flagSource": "Flag of Chile.svg"
+    },
+    {
+        "code": "CO",
+        "name": "Colombia",
+        "capital": "Bogota",
+        "continent": "South America",
+        "flag": "co.svg",
+        "flagSource": "Flag of Colombia.svg"
+    },
+    {
+        "code": "EC",
+        "name": "Ecuador",
+        "capital": "Quito",
+        "continent": "South America",
+        "flag": "ec.svg",
+        "flagSource": "Flag of Ecuador.svg"
+    },
+    {
+        "code": "GY",
+        "name": "Guyana",
+        "capital": "Georgetown",
+        "continent": "South America",
+        "flag": "gy.svg",
+        "flagSource": "Flag of Guyana.svg"
+    },
+    {
+        "code": "PY",
+        "name": "Paraguay",
+        "capital": "Asunción",
+        "continent": "South America",
+        "flag": "py.svg",
+        "flagSource": "Flag of Paraguay.svg"
+    },
+    {
+        "code": "PE",
+        "name": "Peru",
+        "capital": "Lima",
+        "continent": "South America",
+        "flag": "pe.svg",
+        "flagSource": "Flag of Peru.svg"
+    },
+    {
+        "code": "SR",
+        "name": "Suriname",
+        "capital": "Paramaribo",
+        "continent": "South America",
+        "flag": "sr.svg",
+        "flagSource": "Flag of Suriname.svg"
+    },
+    {
+        "code": "UY",
+        "name": "Uruguay",
+        "capital": "Montevideo",
+        "continent": "South America",
+        "flag": "uy.svg",
+        "flagSource": "Flag of Uruguay.svg"
+    },
+    {
+        "code": "VE",
+        "name": "Venezuela",
+        "capital": "Caracas",
+        "continent": "South America",
+        "flag": "ve.svg",
+        "flagSource": "Flag of Venezuela.svg"
+    },
+    {
+        "code": "AU",
+        "name": "Australië",
+        "capital": "Canberra",
+        "continent": "Oceania",
+        "flag": "au.svg",
+        "flagSource": "Flag of Australia (converted).svg"
+    },
+    {
+        "code": "FJ",
+        "name": "Fiji",
+        "capital": "Suva",
+        "continent": "Oceania",
+        "flag": "fj.svg",
+        "flagSource": "Flag of Fiji.svg"
+    },
+    {
+        "code": "KI",
+        "name": "Kiribati",
+        "capital": "Zuid-Tarawa",
+        "continent": "Oceania",
+        "flag": "ki.svg",
+        "flagSource": "Flag of Kiribati.svg"
+    },
+    {
+        "code": "MH",
+        "name": "Marshalleilanden",
+        "capital": "Majuro",
+        "continent": "Oceania",
+        "flag": "mh.svg",
+        "flagSource": "Flag of the Marshall Islands.svg"
+    },
+    {
+        "code": "FM",
+        "name": "Micronesië",
+        "capital": "Palikir",
+        "continent": "Oceania",
+        "flag": "fm.svg",
+        "flagSource": "Flag of the Federated States of Micronesia.svg"
+    },
+    {
+        "code": "NR",
+        "name": "Nauru",
+        "capital": "Yaren",
+        "continent": "Oceania",
+        "flag": "nr.svg",
+        "flagSource": "Flag of Nauru.svg"
+    },
+    {
+        "code": "NZ",
+        "name": "Nieuw-Zeeland",
+        "capital": "Wellington",
+        "continent": "Oceania",
+        "flag": "nz.svg",
+        "flagSource": "Flag of New Zealand.svg"
+    },
+    {
+        "code": "PW",
+        "name": "Palau",
+        "capital": "Ngerulmud",
+        "continent": "Oceania",
+        "flag": "pw.svg",
+        "flagSource": "Flag of Palau.svg"
+    },
+    {
+        "code": "PG",
+        "name": "Papoea-Nieuw-Guinea",
+        "capital": "Port Moresby",
+        "continent": "Oceania",
+        "flag": "pg.svg",
+        "flagSource": "Flag of Papua New Guinea.svg"
+    },
+    {
+        "code": "SB",
+        "name": "Salomonseilanden",
+        "capital": "Honiara",
+        "continent": "Oceania",
+        "flag": "sb.svg",
+        "flagSource": "Flag of the Solomon Islands.svg"
+    },
+    {
+        "code": "WS",
+        "name": "Samoa",
+        "capital": "Apia",
+        "continent": "Oceania",
+        "flag": "ws.svg",
+        "flagSource": "Flag of Samoa.svg"
+    },
+    {
+        "code": "TO",
+        "name": "Tonga",
+        "capital": "Nuku'alofa",
+        "continent": "Oceania",
+        "flag": "to.svg",
+        "flagSource": "Flag of Tonga.svg"
+    },
+    {
+        "code": "TV",
+        "name": "Tuvalu",
+        "capital": "Funafuti",
+        "continent": "Oceania",
+        "flag": "tv.svg",
+        "flagSource": "Flag of Tuvalu.svg"
+    },
+    {
+        "code": "VU",
+        "name": "Vanuatu",
+        "capital": "Port Vila",
+        "continent": "Oceania",
+        "flag": "vu.svg",
+        "flagSource": "Flag of Vanuatu.svg"
+    }
+]
