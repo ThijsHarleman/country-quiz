@@ -12,4 +12,5 @@ export interface Country {
     capital: string;
     continent: Continent;
     flag: string;
+    flagSource: string;
 }

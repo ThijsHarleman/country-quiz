@@ -43,6 +43,8 @@ describe('Country database', () => {
             expect(country.name.trim()).not.toBe('');
             expect(country.capital.trim()).not.toBe('');
             expect(country.flag).toMatch(/^[a-z]{2}\.svg$/);
+            expect(country.flagSource.trim()).not.toBe('');
+            expect(country.flag).toBe(`${country.code.toLowerCase()}.svg`);
         });
     });
 
