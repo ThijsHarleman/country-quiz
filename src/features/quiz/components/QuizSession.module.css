@@ -1,0 +1,170 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+}
+
+.progressSection {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.progressText {
+    display: flex;
+    justify-content: space-between;
+    color: #64748b;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.progressBar {
+    display: block;
+    width: 100%;
+    height: 8px;
+    overflow: hidden;
+    border: 0;
+    border-radius: 999px;
+    background: #e2e8f0;
+    accent-color: #2563eb;
+}
+
+.progressBar::-webkit-progress-bar {
+    border-radius: 999px;
+    background: #e2e8f0;
+}
+
+.progressBar::-webkit-progress-value {
+    border-radius: 999px;
+    background: #2563eb;
+}
+
+.progressBar::-moz-progress-bar {
+    border-radius: 999px;
+    background: #2563eb;
+}
+
+.question {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
+    text-align: center;
+}
+
+.prompt {
+    margin: 0;
+    color: #172033;
+    font-size: 1.35rem;
+    line-height: 1.4;
+}
+
+.flagContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 180px;
+    padding: 1.5rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    background: #f8fafc;
+}
+
+.flag {
+    display: block;
+    width: min(100%, 320px);
+    max-height: 190px;
+    object-fit: contain;
+    filter: drop-shadow(0 2px 4px rgb(0 0 0 / 12%));
+}
+
+.capital {
+    margin: 0;
+    padding: 1.5rem;
+    color: #172033;
+    font-size: clamp(1.75rem, 5vw, 2.5rem);
+    font-weight: 700;
+    overflow-wrap: anywhere;
+}
+
+.feedback {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    padding: 1.25rem;
+    border: 1px solid;
+    border-radius: 12px;
+}
+
+.feedback h3,
+.feedback p {
+    margin: 0;
+}
+
+.feedback h3 {
+    font-size: 1.1rem;
+}
+
+.feedback p {
+    line-height: 1.5;
+}
+
+.correct {
+    border-color: #86efac;
+    background: #f0fdf4;
+    color: #166534;
+}
+
+.incorrect {
+    border-color: #fca5a5;
+    background: #fef2f2;
+    color: #991b1b;
+}
+
+.nextButton {
+    align-self: flex-start;
+    min-height: 44px;
+    margin-top: 0.5rem;
+    padding: 0.7rem 1.1rem;
+    border: 0;
+    border-radius: 8px;
+    background: #2563eb;
+    color: #ffffff;
+    font: inherit;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.nextButton:hover {
+    background: #1d4ed8;
+}
+
+.nextButton:focus-visible {
+    outline: 3px solid rgb(37 99 235 / 30%);
+    outline-offset: 2px;
+}
+
+@media (max-width: 480px) {
+    .container {
+        gap: 1.5rem;
+    }
+
+    .flagContainer {
+        min-height: 140px;
+        padding: 1rem;
+    }
+
+    .flag {
+        max-height: 150px;
+    }
+
+    .feedback {
+        padding: 1rem;
+    }
+
+    .nextButton {
+        width: 100%;
+    }
+}
