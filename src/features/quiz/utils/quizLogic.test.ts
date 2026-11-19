@@ -41,7 +41,7 @@ const testCountries: Country[] = [
 ];
 
 const europeConfig: QuizConfig = {
-    mode: 'flags',
+    modes: ['flags'],
     continents: ['Europe'],
 };
 
@@ -94,7 +94,7 @@ describe('createQuiz', () => {
     it('supports multiple selected continents', () => {
         const state = createQuiz(
             {
-                mode: 'capitals',
+                modes: ['capitals'],
                 continents: ['Europe', 'Asia'],
             },
             testCountries,
@@ -106,7 +106,7 @@ describe('createQuiz', () => {
     it('throws an error if no continent is selected', () => {
         expect(() =>
             createQuiz(
-                { mode: 'flags', continents: [] },
+                { modes: ['flags'], continents: [] },
                 testCountries,
             ),
         ).toThrow('Select at least one continent.');
@@ -115,7 +115,7 @@ describe('createQuiz', () => {
     it('throws an error if no countries match', () => {
         expect(() =>
             createQuiz(
-                { mode: 'flags', continents: ['Africa'] },
+                { modes: ['flags'], continents: ['Africa'] },
                 testCountries,
             ),
         ).toThrow('No countries found');

@@ -23,7 +23,7 @@ export function QuizSetup({ onStart }: QuizSetupProps) {
     const [selectedContinents, setSelectedContinents] =
         useState<Continent[]>(CONTINENTS.map(({ value }) => value));
 
-    const [mode, setMode] = useState<QuizMode>('flags');
+    const [selectedModes, setModes] = useState<QuizMode[]>(['capitals', 'flags']);
 
     const allSelected =
         selectedContinents.length === CONTINENTS.length;
@@ -42,15 +42,23 @@ export function QuizSetup({ onStart }: QuizSetupProps) {
         );
     }
 
+    function toggleMode(mode: QuizMode) {
+        setModes((currentModes) =>
+            currentModes.includes(mode)
+                ? currentModes.filter((item) => item !== mode)
+                : [...currentModes, mode],
+        );
+    }
+
     function handleSubmit(event: SubmitEvent<HTMLFormElement>) {
         event.preventDefault();
 
-        if (selectedContinents.length === 0) {
+        if (selectedContinents.length === 0 || selectedModes.length === 0) {
             return;
         }
 
         onStart({
-            mode,
+            modes: selectedModes,
             continents: selectedContinents,
         });
     }
@@ -84,28 +92,24 @@ export function QuizSetup({ onStart }: QuizSetupProps) {
             </fieldset>
 
             <fieldset className={styles.fieldset}>
-                <legend className={styles.legend}>Wat wil je oefenen?</legend>
+                <legend className={styles.legend}>Quizmodus</legend>
 
                 <label className={styles.option}>
                     <input
-                        type="radio"
-                        name="quizMode"
-                        value="flags"
-                        checked={mode === 'flags'}
-                        onChange={() => setMode('flags')}
+                        type="checkbox"
+                        checked={selectedModes.includes('flags')}
+                        onChange={() => toggleMode('flags')}
                     />
-                    <span>Vlaggen</span>
+                    Vlaggen
                 </label>
 
                 <label className={styles.option}>
                     <input
-                        type="radio"
-                        name="quizMode"
-                        value="capitals"
-                        checked={mode === 'capitals'}
-                        onChange={() => setMode('capitals')}
+                        type="checkbox"
+                        checked={selectedModes.includes('capitals')}
+                        onChange={() => toggleMode('capitals')}
                     />
-                    <span>Hoofdsteden</span>
+                    Hoofdsteden
                 </label>
             </fieldset>
 
@@ -113,7 +117,7 @@ export function QuizSetup({ onStart }: QuizSetupProps) {
                 className={styles.startButton}
                 type="submit"
                 autoFocus
-                disabled={selectedContinents.length === 0}
+                disabled={selectedContinents.length === 0 || selectedModes.length === 0}
             >
                 Start quiz
             </button>

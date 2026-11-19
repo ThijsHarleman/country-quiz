@@ -46,13 +46,9 @@ export function QuizSession({
             </div>
 
             <div className={styles.question}>
-                <h2 className={styles.prompt}>
-                    {state.mode === 'flags'
-                        ? 'Van welk land is deze vlag?'
-                        : 'Bij welk land hoort deze hoofdstad?'}
-                </h2>
+                <h2 className={styles.prompt}>Welk land is dit?</h2>
 
-                {state.mode === 'flags' ? (
+                {state.modes.includes('flags') && (
                     <div className={styles.flagContainer}>
                         <img
                             className={styles.flag}
@@ -60,10 +56,15 @@ export function QuizSession({
                             alt="Te raden vlag"
                         />
                     </div>
-                ) : (
-                    <p className={styles.capital}>
-                        {currentQuestion.capital}
-                    </p>
+                )}
+
+                {state.modes.includes('capitals') && (
+                    <div className={styles.capitalContainer}>
+                        <p>Hoofdstad</p>
+                        <p className={styles.capital}>
+                            {currentQuestion.capital}
+                        </p>
+                    </div>
                 )}
             </div>
 
@@ -86,9 +87,7 @@ export function QuizSession({
                     </h3>
 
                     <p>
-                        {result.isCorrect
-                            ? `Je antwoord ${result.selectedCountry.name} is juist.`
-                            : `Het juiste antwoord is ${result.country.name}.`}
+                        {`Het juiste antwoord is ${result.country.name}.`}
                     </p>
 
                     <button

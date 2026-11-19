@@ -27,10 +27,10 @@ const testCountries: Country[] = [
     },
 ];
 
-function createTestState(mode: QuizMode = 'flags') {
+function createTestState(modes: QuizMode[] = ['flags']) {
     return createQuiz(
         {
-            mode,
+            modes,
             continents: ['Europe'],
         },
         testCountries,
@@ -52,13 +52,13 @@ describe('QuizSession', () => {
 
         expect(screen.getByText('Vraag 1 van 2')).toBeInTheDocument();
         expect(
-            screen.getByText('Van welk land is deze vlag?'),
+            screen.getByText('Welk land is dit?'),
         ).toBeInTheDocument();
         expect(screen.getByRole('progressbar')).toHaveAttribute('value', '1');
     });
 
     it('displays the current flag in flag mode', () => {
-        const state = createTestState('flags');
+        const state = createTestState(['flags']);
         const currentQuestion = state.questions[0];
 
         render(
@@ -76,7 +76,7 @@ describe('QuizSession', () => {
     });
 
     it('displays the capital in capitals mode', () => {
-        const state = createTestState('capitals');
+        const state = createTestState(['capitals']);
         const currentQuestion = state.questions[0];
 
         render(
@@ -88,7 +88,7 @@ describe('QuizSession', () => {
         );
 
         expect(
-            screen.getByText('Bij welk land hoort deze hoofdstad?'),
+            screen.getByText('Welk land is dit?'),
         ).toBeInTheDocument();
         expect(screen.getByText(currentQuestion.capital)).toBeInTheDocument();
     });
@@ -131,7 +131,7 @@ describe('QuizSession', () => {
 
         expect(screen.getByText('Goed gedaan!')).toBeInTheDocument();
         expect(
-            screen.getByText(`Je antwoord ${correctAnswer.name} is juist.`),
+            screen.getByText(`Het juiste antwoord is ${correctAnswer.name}.`),
         ).toBeInTheDocument();
         expect(screen.queryByRole('combobox')).not.toBeInTheDocument();
     });

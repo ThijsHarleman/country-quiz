@@ -27,7 +27,7 @@ const testCountries: Country[] = [
 
 function createCompletedState() {
     const initialState = createQuiz(
-        { mode: 'flags', continents: ['Europe'] },
+        { modes: ['flags'], continents: ['Europe'] },
         testCountries,
         () => 0,
     );

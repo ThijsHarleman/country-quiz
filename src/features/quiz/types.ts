@@ -16,7 +16,7 @@ export interface AnswerResult {
 
 export interface QuizState {
     status: QuizStatus;
-    mode: QuizMode;
+    modes: QuizMode[];
     selectedContinents: Continent[];
     questions: Country[];
     currentQuestionIndex: number;
@@ -25,6 +25,6 @@ export interface QuizState {
 }
 
 export interface QuizConfig {
-    mode: QuizMode;
+    modes: QuizMode[];
     continents: Continent[];
 }

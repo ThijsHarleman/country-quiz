@@ -36,7 +36,7 @@ describe('App', () => {
 
         // The answer should produce feedback.
         expect(
-            screen.getByText(`Je antwoord ${currentCountry!.name} is juist.`),
+            screen.getByText(`Het juiste antwoord is ${currentCountry!.name}.`),
         ).toBeInTheDocument();
 
         // Continue to the next question.

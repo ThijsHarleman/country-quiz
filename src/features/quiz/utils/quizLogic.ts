@@ -30,6 +30,10 @@ export function createQuiz(
         throw new Error('Select at least one continent.');
     }
 
+    if (config.modes.length === 0) {
+        throw new Error('At least one quiz mode must be selected.');
+    }
+
     const selectedCountries = countries.filter((country) =>
         config.continents.includes(country.continent),
     );
@@ -40,7 +44,7 @@ export function createQuiz(
 
     return {
         status: 'playing',
-        mode: config.mode,
+        modes: config.modes,
         selectedContinents: [...config.continents],
         questions: shuffleCountries(selectedCountries, random),
         currentQuestionIndex: 0,

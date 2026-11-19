@@ -51,7 +51,7 @@ describe('QuizSetup', () => {
 
         render(<QuizSetup onStart={vi.fn()} />);
 
-        await user.click(screen.getByLabelText('Hoofdsteden'));
+        await user.click(screen.getByLabelText('Vlaggen'));
 
         expect(screen.getByLabelText('Hoofdsteden')).toBeChecked();
         expect(screen.getByLabelText('Vlaggen')).not.toBeChecked();
@@ -68,7 +68,7 @@ describe('QuizSetup', () => {
         await user.click(screen.getByRole('button', { name: 'Start quiz' }));
 
         expect(onStart).toHaveBeenCalledWith({
-            mode: 'capitals',
+            modes: ['flags'],
             continents: [
                 'Africa',
                 'Asia',
