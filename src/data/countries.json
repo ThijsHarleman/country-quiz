@@ -80,14 +80,6 @@
         "flagSource": "Flag of France.svg"
     },
     {
-        "code": "GE",
-        "name": "Georgië",
-        "capital": "Tbilisi",
-        "continent": "Europe",
-        "flag": "ge.svg",
-        "flagSource": "Flag of Georgia.svg"
-    },
-    {
         "code": "GR",
         "name": "Griekenland",
         "capital": "Athene",
@@ -126,22 +118,6 @@
         "continent": "Europe",
         "flag": "it.svg",
         "flagSource": "Flag of Italy.svg"
-    },
-    {
-        "code": "KZ",
-        "name": "Kazachstan",
-        "capital": "Astana",
-        "continent": "Europe",
-        "flag": "kz.svg",
-        "flagSource": "Flag of Kazakhstan.svg"
-    },
-    {
-        "code": "NL",
-        "name": "Nederland",
-        "capital": "Amsterdam",
-        "continent": "Europe",
-        "flag": "nl.svg",
-        "flagSource": "Flag of the Netherlands.svg"
     },
     {
         "code": "XK",
@@ -230,6 +206,14 @@
         "continent": "Europe",
         "flag": "mk.svg",
         "flagSource": "Flag of North Macedonia.svg"
+    },
+    {
+        "code": "NL",
+        "name": "Nederland",
+        "capital": "Amsterdam",
+        "continent": "Europe",
+        "flag": "nl.svg",
+        "flagSource": "Flag of the Netherlands.svg"
     },
     {
         "code": "NO",
@@ -456,6 +440,14 @@
         "flagSource": "Flag of the Philippines.svg"
     },
     {
+        "code": "GE",
+        "name": "Georgië",
+        "capital": "Tbilisi",
+        "continent": "Europe",
+        "flag": "ge.svg",
+        "flagSource": "Flag of Georgia.svg"
+    },
+    {
         "code": "IN",
         "name": "India",
         "capital": "New Delhi",
@@ -518,6 +510,14 @@
         "continent": "Asia",
         "flag": "jo.svg",
         "flagSource": "Flag of Jordan.svg"
+    },
+    {
+        "code": "KZ",
+        "name": "Kazachstan",
+        "capital": "Astana",
+        "continent": "Europe",
+        "flag": "kz.svg",
+        "flagSource": "Flag of Kazakhstan.svg"
     },
     {
         "code": "KG",
