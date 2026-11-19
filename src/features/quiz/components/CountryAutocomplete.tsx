@@ -78,15 +78,20 @@ export function CountryAutocomplete({
                 );
                 break;
 
-            case 'Enter':
-                if (!showSuggestions || activeIndex < 0) return;
+            case 'Enter': {
+                if (!showSuggestions) return;
 
                 event.preventDefault();
 
-                if (suggestions[activeIndex]) {
-                    selectCountry(suggestions[activeIndex]);
+                const selectedIndex = activeIndex >= 0 ? activeIndex : 0;
+                const selectedCountry = suggestions[selectedIndex];
+
+                if (selectedCountry) {
+                    selectCountry(selectedCountry);
                 }
+
                 break;
+            }
 
             case 'Escape':
                 setIsOpen(false);
@@ -135,6 +140,7 @@ export function CountryAutocomplete({
                         ? `${listboxId}-option-${activeIndex}`
                         : undefined
                 }
+                autoFocus
                 autoComplete="off"
                 spellCheck={false}
                 placeholder="Typ een land..."

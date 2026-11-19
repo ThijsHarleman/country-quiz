@@ -112,6 +112,7 @@ export function QuizSetup({ onStart }: QuizSetupProps) {
             <button
                 className={styles.startButton}
                 type="submit"
+                autoFocus
                 disabled={selectedContinents.length === 0}
             >
                 Start quiz

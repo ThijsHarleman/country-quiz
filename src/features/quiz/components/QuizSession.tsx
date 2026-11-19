@@ -94,6 +94,7 @@ export function QuizSession({
                     <button
                         className={styles.nextButton}
                         type="button"
+                        autoFocus
                         onClick={onNext}
                     >
                         {isLastQuestion ? 'Bekijk resultaat' : 'Volgende vraag'}
